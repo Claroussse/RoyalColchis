@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Contact the Royal Kingdom</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!--Content goes here-->
+
+    <header>
+      <nav>
+        <!-- Navigation Section -->
+        <ul class="container">
+          <li class="brand">
+            <a href="/index.html"
+              ><img src="assets/Logo-Colchis.png" width="100" alt="Logo"
+            /></a>
+          </li>
+          <li class="button"><a href="/index.html">Home</a></li>
+          <li class="button">
+            <a href="/royal-family.html">Royal Family</a>
+          </li>
+          <li class="button"><a href="/assets.html">Royal Assets</a></li>
+          <li class="button"><a href="/contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="contact">
+      <!-- CONTACT Section -->
+      <h2>Contact us</h2>
+      <p>
+        Feel free to send us a little message, we would be delighted to answer
+        !<br />
+        Fill in the form below to contact the Royal Kingdom.
+      </p>
+
+      <form id="contactForm">
+        <label for="firstName">First name:</label><br />
+        <input type="text" id="firstName" name="name" value="John" />
+        <label for="lastName">Last name:</label><br />
+        <input type="text" id="lastName" name="name" value="Doe" /><br />
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value="example@colchis.com"
+        /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message"></textarea>
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <!-- Connect the Javascript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
